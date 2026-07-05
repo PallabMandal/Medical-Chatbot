@@ -18,11 +18,11 @@ load_dotenv()
 
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')
 OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
-GORQ_API_KEY=os.environ.get('GROQ_API_KEY')
+GROQ_API_KEY=os.environ.get('GROQ_API_KEY')
 
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-os.environ["GROQ_API_KEY"] = GORQ_API_KEY
+os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 
 embeddings = download_hugging_face_embeddings()
