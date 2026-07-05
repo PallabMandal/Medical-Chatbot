@@ -8,7 +8,9 @@ Clone the repository
 ```bash
 git clone https://github.com/PallabMandal/Medical-Chatbot.git
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a Python environment after opening the repository
+
+Use `conda` if you have it installed:
 
 ```bash
 conda create -n medibot python=3.10 -y
@@ -16,6 +18,16 @@ conda create -n medibot python=3.10 -y
 
 ```bash
 conda activate medibot
+```
+
+If `conda` is not available, use the built-in `venv` module instead:
+
+```bash
+python -m venv medibot
+```
+
+```bash
+medibot\Scripts\activate
 ```
 
 
